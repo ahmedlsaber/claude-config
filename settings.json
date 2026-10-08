@@ -1,0 +1,17 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:20128/v1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "oc/deepseek-v4-flash-free",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "oc/big-pickle",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "nvidia/minimaxai/minimax-m2.7"
+  },
+  "model": "opus[1m]",
+  "statusLine": {
+    "type": "command",
+    "command": "node \"%USERPROFILE%\\.claude\\statusline.js\""
+  },
+  "effortLevel": "low",
+  "theme": "dark",
+  "switchModelsOnFlag": false
+}

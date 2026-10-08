@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp *)",
+      "Bash(where java *)",
+      "Bash(java -version)",
+      "Bash(timeout 5 java -jar \"C:/Users/USER/AppData/Roaming/BurpSuite/mcp-proxy/mcp-proxy-all.jar\" --sse-url \"http://127.0.0.1:9876/sse\")",
+      "mcp__burp__get_proxy_http_history",
+      "PowerShell(npm *)",
+      "WebSearch",
+      "PowerShell(echo $env:APPDATA)",
+      "PowerShell(if \\(Test-Path \"$env:APPDATA\\\\Claude\\\\claude_desktop_config.json\"\\) { echo \"EXISTS: $env:APPDATA\\\\Claude\\\\claude_desktop_config.json\" } else { echo \"NOT FOUND\" }; if \\(Test-Path \"$env:USERPROFILE\\\\.claude\\\\settings.json\"\\) { echo \"EXISTS: $env:USERPROFILE\\\\.claude\\\\settings.json\" } else { echo \"NOT FOUND\" })",
+      "PowerShell(claude mcp *)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_type"
+    ]
+  }
+}

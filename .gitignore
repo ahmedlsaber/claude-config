@@ -1,0 +1,18 @@
+# Claude Code runtime & secret data — never commit these
+.credentials.json
+history.jsonl
+projects/
+backups/
+shell-snapshots/
+sessions/
+session-env/
+tasks/
+teams/
+ide/
+file-history/
+cache/
+downloads/
+plugins/
+*.bak
+.last-cleanup
+.last-update-result.json
